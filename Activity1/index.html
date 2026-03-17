@@ -1,50 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kawasaki Ninja Spider — Black & White</title>
-    <link rel="stylesheet" href="design.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kawasaki Ninja Spider — Black & White</title>
+  <link rel="stylesheet" href="design.css">
 </head>
+
 <body>
-    <div class="app">
-        <header class="site-header">
-        <div class="brand">
-            <div class="logo">KN</div>
-            <div>
-            <div class="site-title">Kawasaki Ninja Spider</div>
-            <div class="site-sub">Monochrome showcase</div>
-            </div>
+  <div class="app">
+    <header class="site-header">
+      <div class="brand">
+        <div class="logo">KN</div>
+        <div>
+          <div class="site-title">Kawasaki Ninja Spider</div>
+          <div class="site-sub">Monochrome showcase</div>
         </div>
-        <nav aria-label="top">
-            <a href="#features">Features</a>
-            <span style="margin:0 .5rem;color:var(--muted)">|</span>
-            <a href="#specs">Specs</a>
-            <span style="margin:0 .5rem;color:var(--muted)">|</span>
-            <a href="#contact">Contact</a>
+      </div>
+      <nav aria-label="top">
+        <a href="#features">Features</a>
+        <span style="margin:0 .5rem;color:var(--muted)">|</span>
+        <a href="#specs">Specs</a>
+        <span style="margin:0 .5rem;color:var(--muted)">|</span>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <aside class="sidebar" aria-label="Main menu">
+        <nav class="menu">
+          <a href="#overview" class="active">Overview</a>
+          <a href="#design">Design</a>
+          <a href="#performance">Performance</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#videos">Videos</a>
+          <a href="#reviews">Reviews</a>
         </nav>
-        </header>
+      </aside>
 
-        <div class="container">
-        <aside class="sidebar" aria-label="Main menu">
-            <nav class="menu">
-            <a href="#overview" class="active">Overview</a>
-            <a href="#design">Design</a>
-            <a href="#performance">Performance</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#videos">Videos</a>
-            <a href="#reviews">Reviews</a>
-            </nav>
-        </aside>
-
-        <main class="content">
+      <main class="content">
         <section id="overview" class="card">
           <div class="hero">
             <div class="hero-visual" aria-hidden="true">SPIDER</div>
             <div>
               <h1>Kawasaki Ninja Spider</h1>
-              <div class="meta">A conceptual monochrome take on the iconic Kawasaki Ninja — the "Spider" edition blends aggressive lines with a stripped-back black & white aesthetic.</div>
-              <p style="margin-top:.8rem">The Ninja Spider is imagined as a lightweight sport machine with razor-sharp handling and a minimal visual language. This page is a simple, high-contrast showcase focusing on typography, layout, and essential specs for clarity and attitude.</p>
+              <div class="meta">A conceptual monochrome take on the iconic Kawasaki Ninja — the "Spider" edition blends
+                aggressive lines with a stripped-back black & white aesthetic.</div>
+              <p style="margin-top:.8rem">The Ninja Spider is imagined as a lightweight sport machine with razor-sharp
+                handling and a minimal visual language. This page is a simple, high-contrast showcase focusing on
+                typography, layout, and essential specs for clarity and attitude.</p>
             </div>
           </div>
 
@@ -70,20 +75,52 @@
 
           <article style="margin-top:1rem">
             <h2 id="design" style="margin:0 0 .5rem 0">Design</h2>
-            <p>The Spider's design reduces distraction: surfaces are either deep matte black or bright white highlights. Its silhouette is aggressive with a tucked riding position, a sharply raked tail, and minimalist lighting elements. The contrast-driven palette emphasises form and detail without relying on colour.</p>
+            <p>The Spider's design reduces distraction: surfaces are either deep matte black or bright white highlights.
+              Its silhouette is aggressive with a tucked riding position, a sharply raked tail, and minimalist lighting
+              elements. The contrast-driven palette emphasises form and detail without relying on colour.</p>
 
             <h2 id="performance" style="margin-top:1rem">Performance</h2>
-            <p>With a high-output engine and a chassis focused on agility, the Spider prioritises corner speed and rider feedback. Electronics are present but pared down to essentials: traction control, quickshifter, and selectable engine maps to suit both street and track use.</p>
+            <p>With a high-output engine and a chassis focused on agility, the Spider prioritises corner speed and rider
+              feedback. Electronics are present but pared down to essentials: traction control, quickshifter, and
+              selectable engine maps to suit both street and track use.</p>
           </article>
 
+        </section>
+        <section class="about" id="about">
+          <div class="about-grid">
+            <div class="about-text">
+              <h2>Engineering Philosophy</h2>
+              <p>The Ninja Spider isn't just a color palette; it's a reductionist approach to motorcycling. By stripping
+                away the "noise" of traditional racing liveries, we highlight the raw skeletal frame and the precision
+                of the 998cc heart.</p>
+              <p>Every component is chosen for its structural beauty and functional necessity. It is the intersection of
+                arachnid agility and Japanese precision engineering.</p>
+            </div>
+            <div class="about-stats">
+              <div class="stat-item">
+                <span class="stat-value">0-100</span>
+                <span class="stat-label">km/h in 2.8s</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-value">Carbon</span>
+                <span class="stat-label">Fiber Fairings</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-value">Limited</span>
+                <span class="stat-label">Concept Run</span>
+              </div>
+            </div>
+          </div>
         </section>
 
       </main>
 
-        <footer class="site-footer">
+      <footer class="site-footer">
         <div>© 2026 Kawasaki Ninja Spider — Concept showcase. Designed in black & white for clarity.</div>
-        <div style="margin-top:.5rem;color:var(--muted);font-size:.85rem">Built by Norruu · Minimal, accessible, and responsive.</div>
-        </footer>
+        <div style="margin-top:.5rem;color:var(--muted);font-size:.85rem">Built by Norruu · Minimal, accessible, and
+          responsive.</div>
+      </footer>
     </div>
 </body>
+
 </html>
