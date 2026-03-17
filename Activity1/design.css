@@ -109,10 +109,68 @@ nav.menu {
     font-weight: 600
 }
 
-footer.site-footer {
-    padding: 1rem 1.25rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.06);
-    text-align: center;
+main.content {
+    padding: 1rem;
+    border-radius: 8px
+}
+
+.card {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent);
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.03)
+}
+
+.hero {
+    display: flex;
+    gap: 1rem;
+    align-items: center
+}
+
+.hero-visual {
+    width: 300px;
+    height: 180px;
+    background: linear-gradient(135deg, #fff, #eee);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-weight: 700
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 1.35rem
+}
+
+.meta {
     color: var(--muted);
-    font-size: .9rem
+    font-size: .9rem;
+    margin-top: .25rem
+}
+
+article p {
+    line-height: 1.6;
+    color: var(--accent)
+}
+
+.specs {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem
+}
+
+.spec {
+    background: rgba(255, 255, 255, 0.02);
+    padding: .6rem;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    min-width: 120px
+}
+
+.spec b {
+    display: block;
+    color: var(--fg);
+    font-size: 1.1rem
 }
